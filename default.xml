@@ -20,6 +20,7 @@
 
   <default revision="refs/tags/android-4.4.2_r1"
            remote="aosp"
+           sync-c="true"
            sync-j="16" />
 
   <project path="build" name="android_build" remote="omnikang" revision="android-4.4" groups="pdk" >
