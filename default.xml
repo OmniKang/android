@@ -17,6 +17,9 @@
 
   <remote  name="omnikang"
            fetch="https://github.com/OmniKang" />
+           
+  <remote  name="slimroms"
+           fetch="https://github.com/SlimRoms" />
 
   <default revision="refs/tags/android-4.4.2_r1"
            remote="aosp"
@@ -332,7 +335,7 @@
   <project path="packages/apps/Launcher2" name="android_packages_apps_Launcher2" remote="omnirom" revision="android-4.4" />
   <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="omnirom" revision="android-4.4" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" />
-  <project path="packages/apps/Mms" name="android_packages_apps_Mms" remote="omnikang" revision="android-4.4" />
+  <project path="packages/apps/Mms" name="packages_apps_Mms" remote="slimroms" revision="kk4.4" />
   <project path="packages/apps/Music" name="platform/packages/apps/Music" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" />
