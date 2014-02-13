@@ -18,6 +18,9 @@
   <remote  name="omnikang"
            fetch="https://github.com/OmniKang" />
            
+  <remote  name="OmniKang"
+           fetch="https://github.com/OmniKang" />           
+           
   <remote  name="slimroms"
            fetch="https://github.com/SlimRoms" />
 
