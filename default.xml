@@ -39,6 +39,7 @@
   <project path="art" name="android_art" remote="omnirom" revision="android-4.4" />
   <project path="bionic" name="android_bionic" remote="omnirom" revision="android-4.4" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
+  <project path="external/f2fs-tools" name="android_external_f2fs-tools" remote="omnirom" revision="android-4.4" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="android_bootable_recovery" remote="omnirom" revision="android-4.4"/>
   <project path="cts" name="platform/cts" groups="cts" />
@@ -96,7 +97,7 @@
   <project path="external/chromium_org/third_party/libphonenumber/src/phonenumbers" name="platform/external/chromium_org/third_party/libphonenumber/src/phonenumbers" />
   <project path="external/chromium_org/third_party/libphonenumber/src/resources" name="platform/external/chromium_org/third_party/libphonenumber/src/resources" />
   <project path="external/chromium_org/third_party/mesa/src" name="platform/external/chromium_org/third_party/mesa/src" />
-  <project path="external/chromium_org/third_party/openssl" name="platform/external/chromium_org/third_party/openssl" />
+  <project path="external/chromium_org/third_party/openssl" name="android_external_chromium_org_third_party_openssl" remote="omnirom" revision="android-4.4" />
   <project path="external/chromium_org/third_party/opus/src" name="platform/external/chromium_org/third_party/opus/src" />
   <project path="external/chromium_org/third_party/ots" name="platform/external/chromium_org/third_party/ots" />
   <project path="external/chromium_org/third_party/skia/gyp" name="platform/external/chromium_org/third_party/skia/gyp" />
@@ -211,7 +212,7 @@
   <project path="external/opencv" name="platform/external/opencv" />
   <project path="external/openfst" name="platform/external/openfst" />
   <project path="external/openssh" name="platform/external/openssh" />
-  <project path="external/openssl" name="platform/external/openssl" groups="pdk" />
+  <project path="external/openssl" name="android_external_openssl" remote="omnirom" revision="android-4.4" />
   <project path="external/oprofile" name="platform/external/oprofile" />
   <project path="external/pixman" name="platform/external/pixman" />
   <project path="external/ppp" name="platform/external/ppp" />
